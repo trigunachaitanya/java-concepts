@@ -1,13 +1,13 @@
-package com.core.exceptions.basic;
+package com.core.exceptions;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class LbylEafp {
   public static void main(String[] q) {
-    //getIntLbyl();
-    //getIntEafp1();
-    //getIntEafp2();
+    getIntLbyl();
+    getIntEafp1();
+    getIntEafp2();
     System.out.println("[divideLbyl]value is :" + divideLbyl(3, 0));
     System.out.println("[divideEafp]value is :" + divideEafp());
   }

@@ -24,7 +24,6 @@ public class RunLengthEncoding {
 
     //iterate over input
     for (Character c : inputChars) {
-
       if (c == prevChar) {
         counter++;
       }

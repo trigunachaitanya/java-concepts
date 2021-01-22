@@ -10,7 +10,6 @@ public class RunLengthEncoding {
     System.out.println(calculateRunLengthEncoding(stringToEncode));
   }
 
-
   private static String calculateRunLengthEncoding(String stringToEncode) {
 
     //check input
